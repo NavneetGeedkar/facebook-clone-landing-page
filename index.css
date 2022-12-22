@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    text-align: center;
+    color:hsla(214, 86%, 48%, 0.941) ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h1{
+    color: hsla(214, 86%, 48%, 0.941);
+    font-size: 60px;
+    margin-top: 15%;
+}
+h2{
+    font-weight: 500;
+}
+body{
+    background-color: whitesmoke;
+}
+
+.box2{
+    border-left: 2px;
+    border-right: 2px;
+    border-radius: 8px;
+    margin-top: -200px;
+    text-align: center;
+    margin-left: 850px;
+    width: 400px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+.box1{
+    margin-left: 200px;
+    border: 1px #fafafa solid;
+    padding: 8px 0;
+    border-radius: 5px;
+}
+
+input[type="email,number"],
+input[type="password"]{
+    margin-top: 10px;
+    margin: 8px auto;
+    padding: 5px;
+    font-weight: 1px;
+    font-size: 22px;
+    border-radius: 4px;
+    width: 368px;
+
+    background-color: #fafafa;
+    border: 1px lightgray solid;
+}
+button{
+    color: white ;
+    background-color: hsla(214, 86%, 48%, 0.941);
+    font-size: 18px;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px lightgray solid;
+    width: 380px;
+    box-sizing: border-box;
+}
+button[id="ng1"]{
+    background-color: rgb(62, 225, 12);
+    width: 200px;
+    font-size: 18px;
+    font-weight: 40px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+.ng{
+    margin-left: 600px;
+    color: black;
+}
+
